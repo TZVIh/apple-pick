@@ -1,0 +1,8 @@
+<launch>
+    <rosparam  file="$(find ros_deep_learning)/config/paths.yaml" command="load"/>
+    <node pkg="detect_object" name="detect_object" type="detect_object_node" output="screen">
+        <rosparam command="load" file="$(find ros_deep_learning)/config/detect_object.yaml"/>
+    </node>
+</launch>
+
+

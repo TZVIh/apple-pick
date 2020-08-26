@@ -32,6 +32,9 @@ cd src
 echo "$(tput setaf 1)CLONE SRC$(tput sgr 0)"
 git clone https://github.com/TZVIh/apple-pick
 
+
+sudo apt-get install ros-melodic-cv-bridge
+
 ## xarm depe
 ## ros control
 echo "$(tput setaf 1)Xarm dependencies - ROS control$(tput sgr 0)" 
